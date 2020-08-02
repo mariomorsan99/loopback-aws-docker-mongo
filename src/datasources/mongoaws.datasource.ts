@@ -5,12 +5,12 @@ const config = {
   name: 'mongoaws',
   connector: 'mongodb',
   url: '',
-  host: '3.129.45.99',
+  host: '3.128.203.128',
   port: 27017,
   user: 'AdminMongoDb',
   password: 'lunasa19',
   database: 'hospitalDB',
-  useNewUrlParser: true
+  useNewUrlParser: true,
 };
 
 // Observe application's life cycle to disconnect the datasource when
