@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  apploopback:
+    container_name: apploopback
+    restart: always #indica que el conteiner se reiniciara en caso de fayos
+    build: . #indica que tomara el paquete apartir de la ruta del directorio para crear el container
+    ports:
+      - '3000:3000' #puerto que se expondra paara la app
